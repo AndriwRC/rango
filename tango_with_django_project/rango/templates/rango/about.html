@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rango</title>
+</head>
+
+<body>
+    <h1>Rango says...</h1>
+    <p>here is the about page.</p>
+    <p><strong>This tutorial has been put together by @pop-drew</strong></p>
+    <img src="{% static 'images/landscape.jpg' %}" alt="Picture of Landscape">
+    <div>
+        <a href="/rango/">Index</a><br />
+        <img src="{{ MEDIA_URL }}cat.gif" alt="Picture of a Cat">
+    </div>
+</body>
+
+</html>

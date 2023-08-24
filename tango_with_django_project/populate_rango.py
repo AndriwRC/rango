@@ -33,15 +33,15 @@ def populate():
     django_pages = [
         {
             "title": "Official Django Tutorial",
-            "url": "htttps://docs.djangoproject.com/en/4.0/intro/tutorial101/",
+            "url": "https://docs.djangoproject.com/en/4.0/intro/tutorial01/",
         },
         {"title": "Django Rocks", "url": "http://www.djangorocks.com/"},
         {"title": "How to Tango with Django", "url": "http://www.tangowithdjango.com/"},
     ]
 
     other_pages = [
-        {"title": "Bottle", "url": "http//bottlepy.org/docs/dev/"},
-        {"title": "Flask", "url": "http//flask.pocoo.org"},
+        {"title": "Bottle", "url": "http://bottlepy.org/docs/dev/"},
+        {"title": "Flask", "url": "http://flask.pocoo.org"},
     ]
 
     cats = {
